@@ -11,3 +11,23 @@
 ul {
   list-style: none;
 }
+.user-name {
+  text-align: center;
+  text-decoration: underline;
+}
+a::before {
+  content: '\a';
+  white-space: pre;
+  
+}
+
+li{
+  text-align: center;
+}
+.repo{
+  font-weight: normal;
+  color: blue;
+  font-weight: lighter;
+  font-size: smaller;
+  text-decoration: none;
+}
